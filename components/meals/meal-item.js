@@ -9,7 +9,7 @@ export default function MealItem({ title, slug, image, summary, creator }) {
       <header>
         <div className={classes.image}>
           {/* NOTE: fill prop replaces the width and height of the image */}
-          <Image src={image} alt={title} fill />
+          <Image src={image} alt={title} fill sizes="100%" />
         </div>
         <div className={classes.headerText}>
           <h2>{title}</h2>

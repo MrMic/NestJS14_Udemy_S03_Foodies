@@ -13,7 +13,7 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +18 components/meals/meal-item.js
+badd +22 components/meals/meal-item.js
 badd +13 lib/meals.js
 badd +9 app/meals/\[mealSlug]/page.js
 argglobal

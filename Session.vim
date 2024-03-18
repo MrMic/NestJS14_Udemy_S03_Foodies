@@ -14,9 +14,6 @@ else
   set shortmess=aoO
 endif
 badd +5 app/meals/page.js
-badd +32 ~/DEV/NEXTJS_UDEMY/Section03/05-onwards-foodies-starting-project/lib/action.js
-badd +23 ~/DEV/NEXTJS_UDEMY/Section03/05-onwards-foodies-starting-project/lib/meals.js
-badd +10 ~/DEV/NEXTJS_UDEMY/Section03/05-onwards-foodies-starting-project/components/meals/meals-form-submit.js
 argglobal
 %argdel
 edit app/meals/page.js

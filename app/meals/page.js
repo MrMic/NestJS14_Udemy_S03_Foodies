@@ -3,8 +3,13 @@ import Link from "next/link";
 
 import MealsGrid from "@/components/meals/meals-grid";
 import { getMeals } from "@/lib/meals";
-
 import classes from "./page.module.css";
+
+// ______________________________ METADATA ___________________________
+export const metadata = {
+  title: "All Meals",
+  description: "Browse the delicious meals share by our vibrant community.",
+};
 
 // ______________________________________________________________________
 async function Meals() {
